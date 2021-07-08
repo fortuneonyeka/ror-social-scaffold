@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.user-show-title {
+  display: inline-block;
+}
+
+.friendship-invitation {
+  display: inline-block;
+  margin: 0 0 8px 10px;
+  color: #689f38;
+}

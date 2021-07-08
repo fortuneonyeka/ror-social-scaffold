@@ -1,5 +1,8 @@
 <section class="user-section">
-  <h2><%= "Name: #{@user.name}" %></h2>
+  <div class>
+    <h2 class="user-show-title"><%= "Name: #{@user.name}" %></h2>
+    <%= display_friendship_request(inviter:current_user.id, invitee: @user.id) %>
+  </div>
   <article class="timeline">
     <h3>Recent posts:</h3>
     <ul class="posts">
